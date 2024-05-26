@@ -1,8 +1,5 @@
 const allowedCors = [
-  "https://practicum.yandex.ru",
-  "https://students-projects.ru",
-  "localhost:3000",
-  "localhost:3001",
+  "denizho-front.nomoredomainswork.ru,denizho.nomoredomainswork.ru",
 ];
 
 function cors(req, res, next) {
