@@ -1,11 +1,4 @@
-<<<<<<< Updated upstream
-const allowedCors = [
-  "https://denizho-front.nomoredomainswork.ru",
-  "https://denizho.nomoredomainswork.ru",
-];
-=======
 const allowedCors = ["https://denizho-front.nomoredomainswork.ru"];
->>>>>>> Stashed changes
 
 function cors(req, res, next) {
   const { origin } = req.headers;
