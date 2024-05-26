@@ -1,6 +1,7 @@
 <<<<<<< Updated upstream
 const allowedCors = [
-  "denizho-front.nomoredomainswork.ru,denizho.nomoredomainswork.ru",
+  "https://denizho-front.nomoredomainswork.ru",
+  "https://denizho.nomoredomainswork.ru",
 ];
 =======
 const allowedCors = ["https://denizho-front.nomoredomainswork.ru"];
