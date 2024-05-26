@@ -1,5 +1,6 @@
 const allowedCors = [
-  "denizho-front.nomoredomainswork.ru,denizho.nomoredomainswork.ru",
+  "https://denizho-front.nomoredomainswork.ru",
+  "https://denizho.nomoredomainswork.ru",
 ];
 
 function cors(req, res, next) {
