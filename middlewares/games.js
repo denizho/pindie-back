@@ -46,7 +46,7 @@ const updateGame = async (req, res, next) => {
     req.game = await games.findByIdAndUpdate(req.params.id, req.body);
     next();
   } catch (error) {
-    res.status(400).send({ message: "Ошибка обновления игры" });
+    res.status(400).json({ message: "Ошибка обновления игры" });
   }
 };
 const deleteGame = async (req, res, next) => {
